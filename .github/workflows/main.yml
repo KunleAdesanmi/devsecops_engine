@@ -38,7 +38,7 @@ jobs:
 
     - name: Terraform Init & Apply
       env:
-        ECR_URL: ${{ steps.login-ecr.outputs.registry }}/devsecops-engine:v2
+        ECR_URL: ${{ steps.login-ecr.outputs.registry }}/devsecops-engine
       run: |
         cd terraform
         terraform init

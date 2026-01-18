@@ -16,6 +16,6 @@ resource "aws_lambda_function" "scanner" {
   function_name = "ch-security-scanner"
   role          = aws_iam_role.lambda_exec.arn
   package_type  = "Image"
-  image_uri     = "${var.ecr_repo_url}:latest"
+  image_uri     = "${var.ecr_repo_url}:v2"
   timeout       = 30
 }
