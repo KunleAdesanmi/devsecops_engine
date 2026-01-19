@@ -24,7 +24,6 @@ A cloud-native security auditing tool that automatically identifies S3 buckets l
 - [Usage](#usage)
 - [Security Best Practices](#security-best-practices)
 - [Troubleshooting](#troubleshooting)
-- [Learning Resources](#learning-resources)
 
 ---
 
@@ -386,20 +385,6 @@ terraform apply
 3. Image URI is correct
 4. VPC configuration (if applicable)
 
-### Getting Help
-
-For detailed troubleshooting and learning notes, see [LEARNING_NOTES.md](./LEARNING_NOTES.md).
-
----
-
-## 📚 Learning Resources
-
-- **[LEARNING_NOTES.md](./LEARNING_NOTES.md)** - Comprehensive learning notes covering:
-  - Common errors and solutions
-  - Terraform best practices
-  - Docker and ECR workflows
-  - AWS Lambda configuration
-  - CI/CD pipeline details
 
 ### Useful Commands
 
